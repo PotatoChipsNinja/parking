@@ -131,6 +131,7 @@ wx.request({
   header: {
     'content-type': 'application/x-www-form-urlencoded'
   },
+  method: "POST",
   success(res) {
     //获得的res.data即为2号停车位的状态码
     console.log(res.data)
